@@ -1,4 +1,4 @@
-model lab4
+model lab4_1
 Real x, y;
 Real t=time; 
 initial equation
@@ -7,4 +7,4 @@ y=0;
 equation
 der(x)= y;
 der(y)= -7*x;
-end lab4;
+end lab4_1;

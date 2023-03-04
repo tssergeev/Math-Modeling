@@ -34,7 +34,7 @@ plot!(
     sol.t,
     X,
     color=:blue,
-    label="Время"
+    label="x(t)"
 )
 
 plot!(
@@ -42,7 +42,7 @@ plot!(
     sol.t,
     Y,
     color=:red,
-    label="Скорость"
+    label="y(t)"
 )
 
 savefig(plt, "lab41.png")
