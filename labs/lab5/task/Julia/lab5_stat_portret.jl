@@ -34,7 +34,7 @@ plt = plot(
     plot_title="Модель «хищник-жертва»"
 )
 
-plot!(
+scatter!(
     plt,
     X,
     Y,

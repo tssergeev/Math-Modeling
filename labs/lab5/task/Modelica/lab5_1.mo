@@ -1,4 +1,4 @@
-model lab5
+model lab5_1
 Real x, y;
 Real a=0.22;
 Real b=0.051;
@@ -11,4 +11,4 @@ y=8;
 equation
 der(x)= -a*x + b*x*y;
 der(y)= c*y - d*x*y;
-end lab5;
+end lab5_1;
